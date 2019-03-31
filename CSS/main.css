@@ -60,7 +60,7 @@ p, span, a{
 
 
 .nav-content{
-	position: relative;
+  position: relative;
     display: none;
     padding: 0;
     background: rgba(0, 0, 0, .8);
@@ -121,31 +121,31 @@ p, span, a{
 }
 
 .nav-content #dropdown-menu{
-	display: none;
-	background: rgba(0, 0, 0, .8);
-	position: absolute;
-	top: 0;
-	left: 100%;
-	border-left: 1px solid rgba(0,0,0,.3);
-	padding: 10px 0;
+  display: none;
+  background: rgba(0, 0, 0, .8);
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-left: 1px solid rgba(0,0,0,.3);
+  padding: 10px 0;
 }
 
 .nav-content #dropdown-menu ul{
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .nav-content #dropdown-menu ul li a{
-	color: #F5F5F5;
+  color: #F5F5F5;
 }
 
 #dropdown{
-	position: relative;
+  position: relative;
 }
 
 #header .dropdown-item:hover, #header .dropdown-item.active{
-	color: #11ABB0;
-	background: transparent !important;
+  color: #11ABB0;
+  background: transparent !important;
 }
 
 h1{
@@ -175,42 +175,42 @@ path {
 }
 
 #header .dropdown-item:hover, #header .dropdown-item.active{
-	color: #11ABB0;
-	background: transparent !important;
+  color: #11ABB0;
+  background: transparent !important;
 }
 
 #header > .row{
-	min-height: 100vh;
-	width: 100vw;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 #about{
-	display: grid;
+  display: grid;
   padding-top: 80px;
-	padding-bottom: 80px;
-	background: blue;
+  padding-bottom: 80px;
+  background: blue;
   margin: auto;
   grid-template-areas:"header nav"
-                      "header #footer";
+                      "header 1footer";
   
                       
 }
 
 #about h2{
-	margin-bottom: 10px;
-	color: #F5F5F5;
+  margin-bottom: 10px;
+  color: #F5F5F5;
   margin: 150px;
   font-size: 40px;
 }
 
 #about p{
-	color: #999;
+  color: pink;
   margin: 150px;
   font-size: 20px;
 }
 
 #about img{
-	width: 400px;
+  width: 400px;
   margin: 100px;
 }
 
@@ -269,34 +269,124 @@ body {
 
 
 #work{
-	padding: 80px 0;
+  padding: 80px 0;
   background-color:blue;
 }
 
-#work h3{
-	color:white;
-  text-align:center;
-  letter-spacing:0.3em;
-  word-spacing:1em;
-}
-
-#work h4{
+#work h2{
   color:white;
   text-align:center;
   letter-spacing:0.3em;
   word-spacing:1em;
+  font-size: 40px;
+}
+
+#work h3{
+  color:pink;
+  text-align:center;
+  letter-spacing:0.3em;
+  word-spacing:1em;
+  font-size: 25px;
+
 }
 
 #work img{
-  display: grid;
-	max-width: 20%;
-  grid-template-areas:"a b"
-                      "c d"
-                      "e f";
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
+
 
 #work h5{
   font-size:20px;
   color:pink;
   text-align:left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-auto-rows: minmax(80px, auto);
+  grid-gap: 80px;
+  grid-auto-flow: dense;
+  padding: 20px;
+}
+
+footer{
+    background: blue;
+    position: relative;
+    padding: 80px;
+}
+
+.footer-content{
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.footer-content p{
+    color: white;
+}
+
+.footer-content a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #565656;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.footer-content a:hover{
+    color: #FFF;
+}
+
+.footer-content a + a{
+    margin-left: 30px;
+}
+
+footer h4{
+    color: pink;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px){
+  footer{
+        padding: 80px 0;
+    }
+
+    .footer-content{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .footer-content > div{
+        width: 100% !important;
+        margin-bottom: 45px;
+    }
+
+    .footer-content h4{
+        margin-bottom: 20px;
+    }
+
+    .footer-content a + a{
+        margin-left: 18px;
+    }
 }

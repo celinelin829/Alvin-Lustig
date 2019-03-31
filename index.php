@@ -38,7 +38,7 @@
 			<nav>
 				 <h2>About</h2>
 			</nav>
-			<div id="footer">
+			<footer1>
 				 <p>Alvin Lustig (February 8, 1915 - 
 						December 5, 1955) was an American 
 						book designer,[1] graphic designer 
@@ -48,7 +48,7 @@
 						Directors Club Hall of Fame for his 
 						significant contributions to American 
 						design.
-				 </p>
+				 </p></footer1>
 			</div>
 	 </div>
 </div>
@@ -58,24 +58,132 @@
 	 <div class="circle yellow"></div>
 	 <div class="circle red"></div>
 </div>
-<div id="work">
-	 <div class="container">
-			<h3>Work</h3>
-	 </div>
-	 <div class="Graphic Design">
-			<h4>Graphic Design</h4>
-			<a><img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22141506/alvin-lustig-was-the-original-design-strategist-1476934003835-476x640.jpg"></a>
-			<h5 class="project-title">Project name</h5>
-			<b><img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22153349/alvin-lustig-was-the-original-design-strategist-1476933948240-463x640.jpg"></b>
-			<h5 class="project-title">Project name</h5>
-			<c><img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22135228/alvin-lustig-was-the-original-design-strategist-1476934014045-471x640.jpg"></c>
-			<h5 class="project-title">Project name</h5>
-			<d><img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22131059/alvin-lustig-was-the-original-design-strategist-1476934031747-483x640.jpg"></d>
-			<h5 class="project-title">Project name</h5>
-			<e><img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22125137/alvin-lustig-was-the-original-design-strategist-1476934038129-429x640.jpg"></e>
-			<h5 class="project-title">Project name</h5>
-			<f><img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22133131/alvin-lustig-was-the-original-design-strategist-1476934023207-449x640.jpg"></f>
-			<h5 class="project-title">Project name</h5>
-	 </div>
-</div>
+<div id = work>
+  <div class= "container">
+    <h2>Work</h2>
+    <br>
+ 
+          <div class="Graphic Design">
+            <h3>Graphic</h3>
+            <br>
+              <br>
+                <br>
+              
+            <div class="grid">
+  <div class="grid__item">
+       <img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22141506/alvin-lustig-was-the-original-design-strategist-1476934003835-476x640.jpg" style="width:100%">
+    </div>
+              <div class="grid__item">
+                <img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22153349/alvin-lustig-was-the-original-design-strategist-1476933948240-463x640.jpg" style="width:100%">
+              </div>
+              <div class="grid__item">
+                <img src="http://www.historygraphicdesign.com/images/0010/y10.jpg" style="width:100%">
+              </div>
+              <div class="grid__item">
+                <img src="https://wadejohnston1962.files.wordpress.com/2010/06/23.jpg" style="width:100%">
+              </div>
+              <div class="grid__item">
+                <img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22135228/alvin-lustig-was-the-original-design-strategist-1476934014045-471x640.jpg" style="width:100%"></div>
+              <div class="grid__item">
+                <img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22131059/alvin-lustig-was-the-original-design-strategist-1476934031747-483x640.jpg" style="width:100%">
+              </div>
+              <div class="grid__item">
+                <img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22133131/alvin-lustig-was-the-original-design-strategist-1476934023207-449x640.jpg" style="width:100%"></div>
+              <div class="grid__item">
+                <img src="https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/12/22125137/alvin-lustig-was-the-original-design-strategist-1476934038129-429x640.jpg" style="width:100%">
+      </div>
+              <div class="grid__item">
+                <img src="http://www.historygraphicdesign.com/images/0010/y16.jpg" style="width:100%">
+      </div>
+              <div class="grid__item">
+                <img src="http://www.historygraphicdesign.com/images/0010/y15.jpg" style="width:100%">
+      </div>
+              <div class="grid__item">
+                <img src="http://www.historygraphicdesign.com/images/0010/y14.jpg" style="width:100%">
+      </div>
+              <div class="grid__item">
+                <img src="http://www.historygraphicdesign.com/images/0010/y12.jpg" style="width:100%">
+      </div>
+              <br>
+              <br>
+              </div>
+            <div class="Architect Design">
+            <h3>Architect</h3>
+            <br>
+              <br>
+                <br>
+              <div class="grid">
+              <div class="grid__item">
+                <img src="https://3.bp.blogspot.com/-rvLpkrtpzA0/Td1gZLgVBdI/AAAAAAAAA6Y/t9da2R2isGU/s400/alvin-lustig-beverly-2.jpg" style="width:100%">
+      </div>
+                <div class="grid__item">
+                <img src="https://i.pinimg.com/236x/cf/e8/a7/cfe8a77d5e2b46cd72bb07e66180619b--landau-architecture-interiors.jpg" style="width:100%">
+      </div>
+                <div class="grid__item">
+                <img src="https://2.bp.blogspot.com/-CO6AGwL1ATs/Ua1Nl89WcBI/AAAAAAAAOF8/b49pEs3t_O8/s640/Alvin+Lustig+Beverly+Carlton+1.jpg" style="width:100%">
+      </div>
+                <div class="grid__item">
+                <img src="https://3.bp.blogspot.com/-kifSBnTcrjA/Td1gKh--_GI/AAAAAAAAA6U/2xkffcHVMA0/s640/beverly-carlton-life-1949.jpg" style="width:100%">
+      </div>
+                <br>
+              <br>
+              </div>
+              
+              <div class="Architect Design">
+            <h3>Interior</h3>
+            <br>
+              <br>
+                <br>
+              <div class="grid">
+              <div class="grid__item">
+                <img src="http://www.alvinlustig.com/images/ai/intro_11.jpg" style="width:100%">
+      </div>
+                <div class="grid__item">
+                <img src="http://www.alvinlustig.com/images/ai/intro_10.jpg" style="width:100%">
+      </div>
+                <div class="grid__item">
+                <img src="http://www.alvinlustig.com/images/ai/intro_06.jpg" style="width:100%">
+      </div>
+                <div class="grid__item">
+                <img src="http://www.alvinlustig.com/images/ai/intro_04.jpg" style="width:100%">
+      </div>
+                </div>
+                <br>
+                <br>
+                <br>
+              
+                <div class="container-fluid" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 left">
+          <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+        </div>
+
+        
+          <footer>
+
+    <div class="footer-content">
+
+      <div>
+        <h4>Location</h4>
+        <p>Somewhere</p>
+      </div>
+
+      <div>
+        <h4>Email</h4>
+        <p>ALustig@gmail.com</p>
+      </div>
+
+      <div>
+        <h4>Phone</h4>
+        <p>1111111111</p>
+      </div>
+
+      <div>
+        <h4>Social</h4>
+        <p>Instagram</p>
+      </div>
+            </div>
+            
+
 <?php include("footer.php") ?>
