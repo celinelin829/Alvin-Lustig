@@ -30,7 +30,7 @@ p, span, a{
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background: blue;
+        background: pink;
     }
     
     /* Handle on hover */
